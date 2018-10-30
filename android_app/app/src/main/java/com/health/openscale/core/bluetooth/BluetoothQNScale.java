@@ -62,7 +62,7 @@ public class BluetoothQNScale extends BluetoothCommunication {
     private final UUID CUSTOM5_MEASUREMENT_CHARACTERISTIC = UUID.fromString("0000ffe5-0000-1000-8000-00805f9b34fb"); // write-only
     /////////////
 
-    private List<float> weightReadings = new ArrayList<float>;
+    private List<float> weightReadings = new ArrayList<float>();
     /** API
     connectDevice(device, "userId", 170, 1, birthday, new new QNBleCallback(){
     void onConnectStart(QNBleDevice bleDevice);
