@@ -5,7 +5,7 @@ env:
   global:
     - OWNER=${TRAVIS_REPO_SLUG%/*}
     - DEV=${OWNER/oliexdev/dev}
-    - BRANCH=${TRAVIS_BRANCH/master/}
+    - BRANCH=${TRAVIS_BRANCH/feature_qn_scale/}
 
 android:
   components:
